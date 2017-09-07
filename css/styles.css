@@ -1,0 +1,108 @@
+body {
+    background-color: #F5F2D5;
+}
+
+.header{
+    width: 100%;
+    height: 450px; 
+    opacity: 0.5;
+}
+
+.header:hover{
+    opacity: 1;
+}
+
+h1{
+    font-family: Verdana;
+    font-size: 70px;
+    color: #024441;
+    position: absolute;
+    top:300px;
+    text-align: center;
+    opacity: .8;
+}
+
+h2, h3{
+    font-family: Verdana;
+    font-size: 50px;
+    color: #024441;
+    padding: 20px;
+    margin-top: 0px;
+    text-align: center;
+    opacity: .8;
+}
+
+figcaption{
+    font-family: Verdana;
+    font-size: 10px;
+    color:#035A56;
+    text-align: right;
+}
+
+#navcontainer ul {
+    list-style-type: none;
+    font-family: Verdana;
+    position: fixed;
+    bottom: 2px;
+    right: 2px;
+    margin: 2px;
+    padding: 2px;
+}
+
+#navcontainer li {
+    display: inline-block;
+}
+
+#navcontainer li a{
+    color: #024441;
+    background: rgba(217, 218, 186, 0.5);
+    text-align: center;
+    padding: 10px 16px;
+}
+
+#navcontainer li a:hover {
+    color: #D9DABA;
+    background-color:#024441;
+}
+
+p {
+    font-family: Verdana;
+    padding: 15px;
+    font-size: 15px;
+    color:#035A56;
+}
+
+a:link {
+    color: #035A56;
+}
+
+a:visited {
+    color: #B2002E;
+}
+
+a:hover {
+    color:#FF00C9;
+}
+
+a:active {
+    color:#0C1EF7;
+}
+
+able, th, td {
+    font-family:Verdana;
+    font-size: 12px;
+    color: #035A56;
+}
+
+th, td {
+    padding: 15px;
+    margin-left: auto;
+    text-align: center;
+}
+
+form{
+    font-family: Verdana;
+    padding: 15px;
+    font-size: 15px;
+    color:#035A56; 
+}
